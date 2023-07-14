@@ -6,10 +6,8 @@
 
 
 
-
 /**
  * main - Prints if number is positive, zero or negative
- *
  * Return: Always 0 (Success)
  *
  */
@@ -17,6 +15,7 @@
 int main(void)
 
 { 
+
 	int n;
 	
 	srand(time(0));
@@ -24,7 +23,7 @@ int main(void)
 
 	if (n > 0)
 	{
-	printf("%d is positive\n", n);
+	printf("%d is possitive\n", n);
 	}
 	else if (n == 0)
 	{
