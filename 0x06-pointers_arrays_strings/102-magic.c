@@ -1,4 +1,10 @@
 #include <stdio.h>
+/*
+ * main - Add one line to the code, to print
+ * prints a[2] = 98, followed by a new line
+ *
+ * Return: 0 (Success)
+ */
 
 int main(void)
 {
