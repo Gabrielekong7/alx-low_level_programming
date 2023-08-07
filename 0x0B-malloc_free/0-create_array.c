@@ -1,21 +1,21 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdlib>
 /**
- *  create_array - creates an array of char c
- *  @size: size of array
- *  @Description: creat array of size and assign char c
- *  @c: char to assign
- *  return: pointer to array, NULL if fail
+ * create_array - create array of size size and assign char c
+ * @size: size of array
+ * @c: char to assign
+ * Description: creat array of size size and assign char c
+ * Return: pointer to array, NULL if fail
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *str;
+	unsigned int i;
 
-	unsighned int i;
+	str = malloc(sizeof(char) * size)
 
-	str = malloc(sizeof(char) * size);
-	if (NULL == 0 || str == 0)
-		return (NULL);
+		if (size == 0 || str == NULL)
+			return (NULL);
 	for (i = 0; i < size; i++)
 		str[i] = c;
 	return (str);
